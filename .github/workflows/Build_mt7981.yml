@@ -173,6 +173,7 @@ jobs:
         files: |
           ${{ env.FIRMWARE }}/*factory.bin
           ${{ env.FIRMWARE }}/*sysupgrade.bin
+          ${{ env.FIRMWARE }}/*tar.gz
           ImmortalWrt/build.config
 
     - name: Delete workflow runs
