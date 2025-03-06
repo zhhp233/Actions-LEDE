@@ -25,6 +25,10 @@
 
 sed -i 's/192.168.1.1/10.10.1.1/g' package/base-files/files/bin/config_generate
 
+git clone https://github.com/brvphoenix/wrtbwmon package/wrtbwmon
+
+git clone https://github.com/brvphoenix/luci-app-wrtbwmon package/luci-app-wrtbwmon
+
 git clone https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot
 
 git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
