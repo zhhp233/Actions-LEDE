@@ -16,8 +16,8 @@
 #git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
 
 # Replace Smartdns
-./scripts/feeds uninstall luci-app-smartdns smartdns
-./scripts/feeds install -a -p customsd
+#./scripts/feeds uninstall luci-app-smartdns smartdns
+#./scripts/feeds install -a -p customsd
 
 # Replace adguardhome
 #rm -rfv feeds/packages/net/adguardhome
