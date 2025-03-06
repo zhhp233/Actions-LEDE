@@ -1,8 +1,8 @@
 # Github Actions ImmortalWrt 
 
-#- ImmortalWrt源码是[immortalwrt/immortalwrt](https://github.com/immortalwrt/immortalwrt.git)。
+#- ImmortalWrt源码是[immortalwrt/immortalwrt](https://github.com/immortalwrt/immortalwrt.git)
 - Github Actions来自于[P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)，[中文教程](https://p3terx.com/archives/build-openwrt-with-github-actions.html)。
-#- 编译目标为CT3003/JCG_Q30_PRO/E20C
+- #- 编译目标为CT3003/JCG_Q30_PRO/E20C
 
 ## Config文件生成参考
 
