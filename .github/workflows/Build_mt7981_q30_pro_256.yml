@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build mt7981
+name: Build mt7981_q30_pro_256
 
 on:
   repository_dispatch:
