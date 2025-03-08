@@ -30,6 +30,8 @@
 sed -i 's/cachesize\t8000/cachesize\t0/g' package/network/services/dnsmasq/files/dhcp.conf
 sed -i 's/mini_ttl\t3600/mini_ttl\t0/g' package/network/services/dnsmasq/files/dhcp.conf
 
+sed -i '/customized in this file/a net.netfilter.nf_conntrack_max=165535' package/base-files/files/etc/sysctl.conf
+
 # Remove 6in4
 #sed -i 's/ +6in4//g' package/emortal/ipv6-helper/Makefile
 #sed -i '/hotplug.d/d' package/emortal/ipv6-helper/Makefile
