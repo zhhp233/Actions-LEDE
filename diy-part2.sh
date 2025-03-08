@@ -33,6 +33,8 @@ git clone https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot
 
 git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
 
+git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
+
 git clone https://github.com/linkease/nas-packages.git package/nas
 
 git clone https://github.com/linkease/nas-packages-luci.git package/nas-luci
